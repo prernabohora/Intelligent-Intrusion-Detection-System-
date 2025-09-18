@@ -1,0 +1,36 @@
+# ---- Python ignores ----
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ---- Virtual environments ----
+iids_env/
+venv/
+env/
+.venv/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Datasets / large files ----
+Dataset/
+data/
+*.csv
+*.npz
+*.h5
+*.pkl
+*.model
+
+# ---- Logs / cache ----
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- VS Code ----
+.vscode/
